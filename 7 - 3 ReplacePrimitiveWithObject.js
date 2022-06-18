@@ -2,6 +2,17 @@
 
 MOTIVATION
 
+As soon as I realize I want to do something other than simple 
+printing, I like to create a new class for that bit of data. 
+At first, such a class does little more than wrap the primitive—but 
+once I have that class, I have a place to put behavior specific to 
+its needs. These little values start very humble, but once nurtured 
+they can grow into useful tools. They may not look like much, but 
+I find their effects on a code base can be surprisingly large. 
+Indeed many experienced developers consider this to be one of the 
+most valuable refactorings in the toolkit—even though it often 
+seems counterintuitive to a new programmer.
+
 class Order…
 
   constructor(data) {
