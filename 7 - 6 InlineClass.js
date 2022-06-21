@@ -2,6 +2,10 @@
 
 MOTIVATION
 
+Inline Class is the inverse of Extract Class. I use Inline 
+Class if a class is no longer pulling its weight and shouldn't 
+be around any more.
+
 Here's a class that holds a couple of pieces of tracking 
 information for a shipment.
 
